@@ -24,7 +24,7 @@ def go(house, rap, nice):
 while True:
 #ввод данных и исключения
     try:
-        house = int(input('Есть дом или нету (1 или 0): '))
+        house = int(input('Есть дом или нет (1 или 0): '))
         rap = int(input('Слушаешь рэп или нет (1 или 0): '))
         nice = int(input('Ты красивый или нет (1 или 0): '))
     except ValueError:
